@@ -25,7 +25,7 @@ test.beforeEach(async ({page})=>{
     );
 });  
         
-test('create lead',async ({page}) => {
+test('create lead @smoke',async ({page}) => {
     //lead creation 3 steps
     //navigate
     await leadpage.navigatetocreatelead();
