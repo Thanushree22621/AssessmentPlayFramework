@@ -1,0 +1,146 @@
+
+{ 
+    "login":{
+        "username":"will",
+        "password":"will"
+    },
+    "smoke":{
+    "leads": [ { "firstName": "Thanushree",
+        "lastName": "JB",
+        "jobTitle": "QA Engineer",
+        "department": "Testing",
+        "accountName": "ABC Company",
+        "officePhone": "1235432123",
+        "mobile": "9876543655",
+        "faxphone": "2526272772",
+        "website": "test.com",
+        "primary": "no35610thcross",
+        "city": "bangalore",
+        "state": "karnataka",
+        "postalCode": "560079",
+        "country": "india",
+        "email": "thanu@gmail.com",
+        "Description": "hello there thomson here",
+        "Secondary": "no3561stcross",
+        "city2": "chennai",
+        "state2":"tamilnadu",
+        "postalCode2": "560089",
+        "country2": "india",
+        "status": "Assigned",
+        "statusDescription": "this client is a active customer for us since 2014",
+        "opportunityAmount": "$3000",
+        "campaign": "kscw",
+        "leadSource": "Self Generated",
+        "leadsrcDescription": "hello hi there its a good experience ",
+        "refferedby": "sap",
+        "assignedto": "chetan"
+    }],
+    "accounts":[{
+ 
+        "name":"thanu",
+        "website1":"demoapps",
+        "emailadress":"hello@gmail.com",
+        "street3":"no123 123 main road",
+        "city3":"bangalore",
+        "state3":"karnataka",
+        "postalcode3":"560987",
+        "country3":"india",
+        "officephone2":"08022435788",
+        "fax2":"9845773224",
+        "street4":"no1234 11 cross",
+        "city4":"bangalore",
+        "state4":"chennai",
+        "postalcode4":"789065",
+        "country4":"india",
+        "description3":"Hi there how was the application ",
+        "assignedto":"mepani",
+        "type2":"Analyst",
+        "annualrevenue":"$678905432",
+        "memberof":"global group",
+        "campaign3":"hello",
+        "industr2":"Apparel",
+        "employee":"bala"
+
+    }],
+    "opportunities":[{
+        "opportunityname":"sap",
+        "currency":"US Dollar : $",
+        "opportunityamount":"$98765",
+        "salesstage":"Needs Analysis",
+        "probability":"50",
+        "accountname":"sap",
+        "type":"Existing Business",
+        "leadsource":"Existing Customer",
+        "campaign":"Automation_sap",
+        "nextstep":"Follow up with client",
+        "description4":"Opportunity explanation",
+        "assignedto":"bala"
+    }],
+    "Task":[{
+        "subject":"Follow up with client",
+        "statusdropdown":"In Progress",
+        "retaledtodropdown":"Task",
+        "contactname":"Test Contact_123",
+        "prioritydropdown":"Medium",
+        "description":"Follow up with the client regarding pricing discussion"
+    }]
+
+    },
+
+    "system":{
+        "convertlead":[{
+            "opportunityname":"sap"
+            
+        }],
+        "productpage":[{
+            "productname":"sap_version_1",
+            "productcategory":"sap aap",
+            "partnumber":"9876544876",
+            "currencydropdown":"US Dollar : $",
+            "cost":"$986756",
+            "producttypedropdown":"Service",
+            "contact":"9886645346",
+            "price":"$8967576",
+            "description":"its regarding sap account"
+            }]
+    },
+
+    "integration":{
+        "campaign":[{
+            "header":{
+            "nametextfield":"Automation campaign",
+            "statusdropdown":"Active",
+            "typedropdown":"Radio",
+            "description22":"hi there this campaign description"
+            },
+            "target":{
+                "budget":"$8775",
+                "expectedrevenue":"$987654",
+                "currencydropdown":"US Dollar : $",
+                "actualcost":"$765656",
+                "expectedcost":"$987634322",
+                "descriptiontextarea":"hi there ,from sap this we have already added our"
+
+            },
+            "template":{
+                "createnewtargetlist":"sap_newversion",
+                "targetlisttype":"Suppression List - By Email Address"
+
+
+            }
+        }],
+        "contact":[{
+            "firstname":"chetan",
+            "jobtitle":"Assossciate Engineer",
+            "lastname":"mepani",
+            "department":"saleforce",
+            "accountname":"sap",
+            "adress":"no 56 10th main crosee,e2e building",
+            "leadsource":"Cold Call",
+            "reportsto":"william"
+        }]
+    }
+
+
+
+}
