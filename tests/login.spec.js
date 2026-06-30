@@ -25,7 +25,9 @@ test('excel write and read', async () => {
   const readData = xlsx.utils.sheet_to_json(newSheet);
 
   console.log(readData);
+  console.log(readData);
 })
 //this looks good
+//a
 //npx playwright test tests/login.spec.js
 //queuebank

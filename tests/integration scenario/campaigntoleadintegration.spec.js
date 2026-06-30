@@ -12,7 +12,7 @@ import {
     generateuniqueaccount
  } from "../../util/datalead.js";
  
- test.describe('system tests', ()=>{
+ test.describe('system tests @integration', ()=>{
     let loginpage, campaignheadern, campaigntarget, campaigntemplate, campaigndetail, leadpage, contactpage, accountpage;
      test.beforeEach('',async({page})=>{
      const pomManager = new POManager(page);
