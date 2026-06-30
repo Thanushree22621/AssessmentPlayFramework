@@ -4,7 +4,7 @@ pipeline {
 
     stages {
         stage("checkout of integration"){
-        step{
+        steps{
             checkout scm
         }
     }
