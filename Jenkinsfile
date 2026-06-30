@@ -1,12 +1,13 @@
 pipeline {
     agent any
-    stage{
+    
+
+    stages {
+        stage("checkout of integration"){
         step{
             checkout scm
         }
     }
-
-    stages {
         stage('Install Dependencies') {
             steps {
                 bat 'npm install'
