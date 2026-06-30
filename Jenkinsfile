@@ -1,5 +1,10 @@
 pipeline {
     agent any
+    stage{
+        step{
+            checkout scm
+        }
+    }
 
     stages {
         stage('Install Dependencies') {
